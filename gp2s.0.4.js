@@ -39,7 +39,6 @@ if (!$( "div[class='ui-grid-col-9']" )[6]) {
         }
 	if (document.getElementById("group_interaction_info_form-tab_view-node_rule_building-node_rule_building_input").value.indexOf('Саратовская ОБЛ') > 1) {
             reg = 'Саратовский филиал';
-            $( "tr[data-label='ОМССиИС МРФ Волга']" )[0].click();
         }
         var text = reg + ", аварийная ситуация на сети ПАО Ростелеком,  проводятся аварийно-восстановительные работы. Не доступны услуги (доступ в Интернет, Интерактивного ТВ, ) для  абонентов " + document.getElementById("group_interaction_info_form-tab_view-node_rule_building-node_rule_building_input").value;
         document.getElementById("group_interaction_info_form-tab_view-businessInteraction").value = text, document.getElementById("group_interaction_info_form-tab_view-commentary").value = text + " Ожидаемое время восстановления " + hour           +            ":" + minutes + " " + day + "." + month + "." + year    }, 1000);
