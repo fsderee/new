@@ -1,4 +1,4 @@
-mainUrl='https://raw.githubusercontent.com/darakcheeff/fast/master/';
+mainUrl='https://raw.githubusercontent.com/fsderee/new/master/';
 
 function httpGet(theUrl)
 {
