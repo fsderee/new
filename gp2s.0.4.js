@@ -1,7 +1,7 @@
 if (!$( "div[class='ui-grid-col-9']" )[6]) {
     document.getElementById('group_interaction_info_form-tab_view-group_interaction_type_1').click();
     setTimeout(function() {
-        document.getElementById('group_interaction_rule_frame_form-selected_group_problem_rule_type_5').click();
+        document.getElementById('group_interaction_rule_frame_form-selected_group_problem_rule_type_3').click();
     }, 1000);
     setTimeout(function() {
         document.getElementById('group_interaction_rule_frame_form-connection_unit_rule_access_type_4').click();
