@@ -45,9 +45,4 @@ if (!$( "div[class='ui-grid-col-9']" )[6]) {
     }, 5000);
 }
 
-    alert($(".ui-grid-col-7")[0].innerText.replace(' - Регистрация', ''));
-    setTimeout(function() {
-        document.getElementById('global_editor-form-save').click();
-    }, 5000);
-}
-
+  
