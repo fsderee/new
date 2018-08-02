@@ -43,6 +43,6 @@ if (!$( "div[class='ui-grid-col-9']" )[6]) {
     setTimeout(function() {
         document.getElementById('global_editor-form-save').click();
     }, 5000);
-
+}
 
   
