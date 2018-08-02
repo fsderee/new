@@ -46,6 +46,6 @@ if (!$( "div[class='ui-grid-col-9']" )[6]) {
     //alert($(".ui-grid-col-7")[0].innerText.replace(' - Регистрация', ''));
        setTimeout(function() {
         $( "span[id='group_interaction_info_form-tab_view-group_interaction_rule_table-0-j_idt592_content']" ).click();
-    //}, 5000);
+    }, 5000);
 }
 
