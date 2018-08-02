@@ -44,5 +44,5 @@ if (!$( "div[class='ui-grid-col-9']" )[6]) {
         var text = reg + ", Зафиксировано накопление ошибок на магистральном порту на оборудовании  " + document.getElementById("group_interaction_info_form-tab_view-node_rule_building-node_rule_building_input").value;
         document.getElementById("group_interaction_info_form-tab_view-businessInteraction").value = text, document.getElementById("group_interaction_info_form-tab_view-commentary").value = text  }, 1000);
     //alert($(".ui-grid-col-7")[0].innerText.replace(' - Регистрация', ''));
-       $( "ui-chkbox-icon ui-icon ui-icon-check ui-c" )[0].click();
+       $( "div[class='ui-chkbox-icon ui-icon ui-icon-check ui-c']" )[0].click();
 }
