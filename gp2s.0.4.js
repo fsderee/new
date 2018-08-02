@@ -33,16 +33,18 @@ if (!$( "div[class='ui-grid-col-9']" )[6]) {
         }
         if (document.getElementById("group_interaction_info_form-tab_view-node_rule_building-node_rule_building_input").value.indexOf('Нижегородская ОБЛ') > 1) {
             reg = 'Нижегородский филиал';
+			 if (document.getElementById("group_interaction_info_form-tab_view-node_rule_building-node_rule_building_input").value.indexOf('Нижний Новгород Г') > 1) {
+				$( "tr[data-label='ОМССиИС МРФ Волга']" )[0].click();
+			 }
         }
-	if (document.getElementById("group_interaction_info_form-tab_view-node_rule_building-node_rule_building_input").value.indexOf('Саратовская ОБЛ') > 1) {
-            reg = 'Саратовский филиал';
+	if (document.getElementById("group_interaction_info_form-tab_view-node_rule_building-node_rule_building_input").value.indexOf('Пензенская ОБЛ') > 1) {
+            reg = 'Пензенский филиал';
+            $( "tr[data-label='ОМССиИС МРФ Волга']" )[0].click();
         }
-        var text = reg + ", Зафиксировано накопление ошибок на магистральном порту на оборудовании на порту " + document.getElementById("group_interaction_info_form-tab_view-node_rule_building-node_rule_building_input").value;
-        document.getElementById("group_interaction_info_form-tab_view-businessInteraction").value = text, document.getElementById("group_interaction_info_form-tab_view-commentary").value = text;
+        var text = reg + ", Зафиксировано накопление ошибок на магистральном порту на оборудовании  " + document.getElementById("group_interaction_info_form-tab_view-node_rule_building-node_rule_building_input").value;
+        document.getElementById("group_interaction_info_form-tab_view-businessInteraction").value = text, document.getElementById("group_interaction_info_form-tab_view-commentary").value = text ;
     alert($(".ui-grid-col-7")[0].innerText.replace(' - Регистрация', ''));
     setTimeout(function() {
         document.getElementById('global_editor-form-save').click();
     }, 5000);
 }
-
-  
