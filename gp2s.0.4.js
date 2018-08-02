@@ -45,9 +45,7 @@ if (!$( "div[class='ui-grid-col-9']" )[6]) {
         document.getElementById("group_interaction_info_form-tab_view-businessInteraction").value = text, document.getElementById("group_interaction_info_form-tab_view-commentary").value = text  }, 1000);
     //alert($(".ui-grid-col-7")[0].innerText.replace(' - Регистрация', ''));
        setTimeout(function() {
-        $( "div[class='group_interaction_info_form-tab_view-group_interaction_rule_table-0-j_idt592_content']" ).click();
+        $( "span[id='group_interaction_info_form-tab_view-group_interaction_rule_table-0-j_idt592_content']" ).click();
     //}, 5000);
 }
-	
-	$( "div[class='']" )[0].click();
-}
+
